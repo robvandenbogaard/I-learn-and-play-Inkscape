@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>SVG Output for eLearning: reveal hidden groups by mouse over</_name>
+    <id>org.ilearnandplay.output.reveal_hidden_groups</id>
+    <output>
+        <extension>.svg</extension>
+        <mimetype>image/svg+xml</mimetype>
+        <_filetypename>SVG iLearnAndPlay: reveal hidden groups (*.svg)</_filetypename>
+        <_filetypetooltip>Reveal hidden groups by mouse over</_filetypetooltip>
+    </output>
+    <xslt>
+        <file reldir="extensions">reveal_hidden_groups.xsl</file>
+    </xslt>
+</inkscape-extension>
