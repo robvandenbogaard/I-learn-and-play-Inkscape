@@ -1,0 +1,41 @@
+Inspired by flash game "Adjective Adventure"
+
+- Introductory screen with
+  - background
+  - title
+  - description
+    - explanation of the subject ("What is an adjective?")
+    - example
+    - how to play
+  - play button
+- Transition
+  - slide to left
+  - single-shot sound effect
+- Main game screen
+  - background graphic
+  - title
+  - score indicator ("Right: #  Wrong: #")
+  - turn audio on/off button
+  - skinned animated mousecursor
+    - with sound effect (looped and retriggered with each animation loop start)
+  - multiple duplicated animated (looped) characters
+  - random items from a list shown aligned with the characters (one item for each animated character)
+  - mouse over each of the animated characters
+    - single-shot sound effect
+    - animated character motion stops, jumps to fixed frame
+  - the items are click targets
+    - clicked on wrong answer
+      - item is replaced with graphic for wrong answer
+      - score for Wrongs is incremented
+    - clicked on right answer
+      - single-shot sound effect
+      - corresponding character jumps to alternate animation and freezes for a while
+      - score for Rights is incremented
+  - go to final screen after set amount of Right answers
+- Final screen
+  - background
+  - single-shot sound effect
+  - title and description
+  - score totals
+  - play again button
+  - links to other games
