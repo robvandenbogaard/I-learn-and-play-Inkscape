@@ -1,0 +1,25 @@
+I Learn and Play for Inkscape
+Inkscape extensions for e-learning authoring
+
+HOW TO USE
+
+For each extension you would like to use in Inkscape, move the corresponding files
+to Inkscape's extension directory.
+
+E.g. using Ubuntu, the reveal-by-mouseover extension can be enabled in Inkscape
+for all system users by moving the .inx and .xsl files in the extensions/reveal-by-mouseover
+directory to /usr/share/inkscape/extensions (use sudo to copy them as you need to
+be root). You don't need to copy the examples folder and/or the README file.
+
+
+REVEAL BY MOUSEOVER
+
+This extension makes it easy to generate pictures that have hidden descriptions 
+and/or graphics that appear when you move the mouse pointer over them if you view
+the svg in a modern browser.
+
+It adds the required javascript to hidden objects when you save the file as type
+"SVG iLearnAndPlay: reveal hidden groups (*.svg)". Any svg object (or group) that
+is set to hidden in Inkscape (checking "Hide" in the Object Properties dialog)
+will be "discoverable" in the output picture.
+
