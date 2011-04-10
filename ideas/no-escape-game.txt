@@ -1,0 +1,4 @@
+Format: No escape
+Category: turn-based game
+Info: Inspired by flash game "Mouse Trap" at http://www.sheppardsoftware.com
+
